@@ -1,0 +1,6 @@
+ if (data.meals) {
+    const {
+      strMeal : name, strCategory : cat, strArea : area, strInstructions : instruction, strMealThumb : image, strYoutube : youtube, strTags: tags
+    } = data.meals[0]
+
+  }
