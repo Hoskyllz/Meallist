@@ -1,8 +1,11 @@
 .about-section{
     height: 70vh;
 }
-.video{
-    width: 650px;
-    height: 360px;
+.banner{
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
 }
 

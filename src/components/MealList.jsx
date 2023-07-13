@@ -17,9 +17,9 @@ const MealList = () => {
       {
         foods.map((food) => {
           const { id, name, image, Cat, area } = food
-          return <Link to={`/meal/${id}`} className='text-decoration-none' key={id}>
-            <div style={{width:"300px"}}   className='shadow-md card my-3 mx-auto'>
-            <img src={image} alt={name} />
+          return <Link to={`/meal/${id}`} className='text-decoration-none my-3 mx-auto' key={id}>
+            <div style={{width:"280px"}}   className='shadow-lg card  rounded-2'>
+            <img src={image} alt={name} className='rounded-top-2 w-100' />
             <h4 className='text-success fw-bold text-center mt-3'>{name} </h4>
             <h5 className='text-secondary text-center fw-light'>{Cat} {area} </h5>
 
